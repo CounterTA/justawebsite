@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+        <head>
+            <title>Just a website</title>
+        </head>
+        <body>
+
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("pop");
+                    if (x.style.display === "none") {
+                        x.style.display = "block";
+                    } else {
+                        x.style.display = "none";
+                    }
+                } 
+            </script>
+
+
+            <div id="naslov">
+                <h1  id="tekst" style="display: inline-block;">Другаре Кико!</h1>
+            </div>
+
+            <div id="kopche">
+                <button class="btn" onclick="myFunction()">Кликни тука!</button>
+            </div>
+
+            <div id="pop" style="display: none;">
+
+                <div id="slikacont" style="margin-top: 3%">
+                    <img src="pepe.png" id="slika">
+                </div>
+
+                <div id="tekstot">
+                    <h2 id="txt" style="display: inline-block;">Среќен роденден!</h2>
+                </div>
+
+
+
+
+            </div>
+            
+        </body>
+    </html>
